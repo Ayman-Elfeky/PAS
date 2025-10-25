@@ -1,13 +1,8 @@
 "use client";
-// import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/Button";
-import { ArrowDown, Text } from "lucide-react";
+import { ArrowDown } from "lucide-react";
 import Link from "next/link";
 import { TextTransition } from "./TextTransition";
-import Hero from "../assets/avatar-4.png"
-import Video from "next-video";
-import Image from "next/image";
-// import Hero from "../../videos/hero-section.mp4";
 
 export const HeroSection = () => {
   return (

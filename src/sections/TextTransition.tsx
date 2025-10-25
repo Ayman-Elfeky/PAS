@@ -3,11 +3,7 @@ import React from "react"
 import { AnimatePresence, motion } from "framer-motion"
 
 export const TextTransition = ({
-    // text="Experience",
     words = ["The best car wash service at home","Exclusive Car Detailing and Spa"],
-}: {
-  text: string
-  words: string[]
 }) => {
   const [index, setIndex] = React.useState(0)
  

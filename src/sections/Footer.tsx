@@ -1,4 +1,4 @@
-import { Logo, SocialX, SocialInstagram, SocialYoutube, Instagram, LinkedIn, Whatsapp } from "@/assets";
+import { Instagram, LinkedIn, Whatsapp } from "@/assets";
 import Image from "next/image";
 import Link from "next/link";
 import Logoo  from "../assets/logo.png";

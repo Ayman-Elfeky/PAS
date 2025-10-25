@@ -21,8 +21,8 @@ export const Features = () => {
   );
   const backgroundSizeX = useMotionValue(featuresTabs[0].backgroundSizeX);
 
-  const backgroundPosition = useMotionTemplate`${backgroundPositionX}% ${backgroundPositionY}%`;
-  const backgroundSize = useMotionTemplate`${backgroundSizeX}% auto`;
+  // const backgroundPosition = useMotionTemplate`${backgroundPositionX}% ${backgroundPositionY}%`;
+  // const backgroundSize = useMotionTemplate`${backgroundSizeX}% auto`;
 
   const handleSelectTab = (tabIndex: number) => {
     setCurrentTab(tabIndex);

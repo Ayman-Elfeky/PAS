@@ -1,5 +1,5 @@
 "use client";
-import { testimonials } from "@/data/data";
+// import { testimonials } from "@/data/data";
 import { images } from "@/data/data";
 import { motion } from "framer-motion";
 import Image from "next/image";
