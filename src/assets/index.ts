@@ -26,4 +26,4 @@ export { default as BMW } from "@/assets/BMW-washing.png";
 export { default as StarsImage } from "@/assets/stars.png";
 export { default as Whatsapp } from "@/assets/Whatsapp.png";
 export { default as Instagram } from "@/assets/Instagram.png";
-export { default as LinkedIn } from "@/assets/LinkedIn.png";
+export { default as LinkedIn } from "@/assets/Linkedin.png";
