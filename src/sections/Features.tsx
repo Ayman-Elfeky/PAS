@@ -4,7 +4,6 @@ import { featuresTabs } from "@/data/data";
 import {
   animate,
   motion,
-  useMotionTemplate,
   useMotionValue,
   ValueAnimationTransition,
 } from "framer-motion";

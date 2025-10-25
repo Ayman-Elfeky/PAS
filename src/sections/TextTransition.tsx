@@ -13,7 +13,7 @@ setIndex((prevIndex) => (prevIndex + 1) % words.length)
 }, 5000)
 // Clean up interval on unmount
 return () => clearInterval(interval)
-}, [])
+}, [words.length])
 return (
 
 <div className="text-sm mt-4 text-gray-400 text-center sm:text-4xl font-bold md:text-2xl md:leading-[2rem] w-fit flex items-center justify-center mx-auto gap-1.5">
