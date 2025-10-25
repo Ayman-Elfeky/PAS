@@ -1,0 +1,22 @@
+import { CallToAction } from "@/sections/CallToAction";
+import { Features } from "@/sections/Features";
+import { Footer } from "@/sections/Footer";
+import { Header } from "@/sections/Header"; 
+import { HeroSection } from "@/sections/HeroSection";
+import { LogoTicker } from "@/sections/LogoTicker";
+import { Testimonials } from "@/sections/Testimonials";
+
+export default function Home() {
+  return (
+    <main>
+      <Header />
+      {/* <Hero /> */}
+      <HeroSection />
+      <LogoTicker />
+      <Features />
+      <Testimonials />
+      <CallToAction />
+      <Footer />
+    </main>
+  );
+}
