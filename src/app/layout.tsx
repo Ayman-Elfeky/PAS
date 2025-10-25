@@ -7,8 +7,11 @@ import "@/styles/globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "AI SEO | AI Startup Landing Page",
-  description: "A landing page for an AI startup",
+  title: "PAS | Premium Auto Spa",
+  description: "A landing page for PAS a luxury car home washing service",
+icons: {
+    icon: "/favicon.ico", // your custom icon
+  },
 };
 
 export default function RootLayout({

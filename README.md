@@ -1,6 +1,6 @@
 # Premium Auto Spa
 
-<img src="Screenshot.png" alt="AI SEO screenshot" />
+![Premium Auto Spa Screenshot](./Screenshot.png)
 
 Welcome to **Premium Auto Spa** — a modern, elegant landing page for a **luxury home car washing service**.  
 
