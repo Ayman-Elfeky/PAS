@@ -1,6 +1,7 @@
 import { MenuIcon } from "@/assets";
 import Logoo  from "../assets/logo.png";
 import Log from "../assets/LOGO-Opt.jpg";
+import Logo from "../assets/Logo-OOPT.jpg";
 import { Button } from "@/components/Button";
 import Link from "next/link";
 import Image from "next/image";
@@ -14,15 +15,15 @@ const navItems = [
 
 export const Header = () => {
   return (
-    <header className="sticky top-0 py-4 md:py-6 border-none z-10">
+    <header className="sticky top-0 py-4 sm:py-6 border-none z-10">
       {/* <div className="absolute inset-0 backdrop-blur -z-10 md:hidden"></div> */}
       <div className="">
         <div className="relative flex justify-between items-center md:p-2.5 rounded-xl max-w-6xl mx-auto">
           {/* <div className="absolute inset-0 backdrop-blur -z-10 hidden md:block"></div> */}
           <div className="flex items-center gap-2">
             {/* <div className="size-20 border border-white/15 rounded-lg"> */}
-              <Image src={Logoo} alt="Logo" className="w-24 h-16 object-contain" />
-              <h1 className="text-2xl font-bold md:hidden">Premium Auto Spa</h1>
+              <Image src={Logo} alt="Logo" className="w-24 h-16 object-contain" />
+              <h1 className="text-2xl font-bold hidden md:block">Premium Auto Spa</h1>
             {/* </div> */}
           </div>
           <div className="hidden md:block">
