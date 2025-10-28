@@ -5,10 +5,10 @@ import Link from "next/link";
 import Image from "next/image";
 
 const navItems = [
-  { href: "#", title: "Features" },
+  // { href: "#", title: "Features" },
   { href: "#", title: "About Us" },
   { href: "#", title: "Pricing" },
-  { href: "#", title: "Contact US" },
+  { href: "https://wa.me/+201210007708", title: "Contact US" },
 ];
 
 export const Header = () => {
@@ -37,7 +37,7 @@ export const Header = () => {
             </nav>
           </div>
           <div className="flex items-center gap-4">
-            <Button>Download App <span className="block font-sm">Coming Soon!</span></Button>
+            <Button>Download App <span className="block font-small font-thin font-gray-500">Coming Soon!</span></Button>
             <MenuIcon className="md:hidden" />
           </div>
         </div>

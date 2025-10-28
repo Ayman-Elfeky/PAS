@@ -10,6 +10,7 @@ import {
 import { useRef } from "react";
 import useRelativeMousePosition from "@/hooks/useRelativeMousePosition";
 import Image from "next/image";
+import Link from "next/link";
 
 export const CallToAction = () => {
   const sectionRef = useRef<HTMLElement>(null);
@@ -68,7 +69,9 @@ export const CallToAction = () => {
               Achieve a pristine, showroom finish without the hassle.
             </p>
             <div className="flex justify-center mt-8">
-              <Button>Book Your Wash Now</Button>
+              <Link href={"https://wa.me/+201210007708"} target="_blank" rel="noopener noreferrer">
+                <Button>Book Your Wash Now</Button>
+              </Link>
             </div>
           </div>
         </motion.div>
