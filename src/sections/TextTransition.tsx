@@ -3,7 +3,7 @@ import React from "react"
 import { AnimatePresence, motion } from "framer-motion"
 
 export const TextTransition = ({
-    words = ["The best car wash service at home","Exclusive Car Detailing and Spa"],
+    words = ["The best car wash service at home","For Exclusive Car Detailing"],
 }) => {
   const [index, setIndex] = React.useState(0)
  

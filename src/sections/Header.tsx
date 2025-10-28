@@ -37,7 +37,7 @@ export const Header = () => {
             </nav>
           </div>
           <div className="flex items-center gap-4">
-            <Button>Download App</Button>
+            <Button>Download App <span className="block font-sm">Coming Soon!</span></Button>
             <MenuIcon className="md:hidden" />
           </div>
         </div>

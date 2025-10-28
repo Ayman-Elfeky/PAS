@@ -73,7 +73,7 @@ const FeatureTab = (
           style={{
             maskImage: maskImage,
           }}
-          className="absolute inset-0 -m-px border border-[#A369FF] rounded-xl"
+          className="absolute inset-0 -m-px border border-[#2CAEE0] rounded-xl"
         ></motion.div>
       )}
       <div className="inline-flex justify-center items-center size-12 border border-white/15 rounded-lg">
@@ -86,8 +86,13 @@ const FeatureTab = (
       </div>
       <span className="font-medium">{props.title}</span>
       {props.isNew && (
-        <span className="px-2 py-0.5 text-xs bg-[#8c44ff] text-black font-semibold rounded-full">
-          new
+        <span className="px-2 py-0.5 text-xs bg-[#2CAEE0] text-black font-semibold rounded-full">
+          PRO
+        </span>
+      )}
+      {props.isPopular && (
+        <span className="px-2 py-0.5 text-xs bg-[#FFC000] text-black font-semibold rounded-full">
+          Most Popular
         </span>
       )}
     </div>

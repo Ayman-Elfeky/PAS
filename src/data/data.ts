@@ -4,7 +4,7 @@ import {Motor, Porshe, HandWash, BMW} from "@/assets";
 export const featuresTabs = [
   {
     icon: "./assets/lottie/vroom.lottie",
-    title: "Full Car Detailing",
+    title: "Express Detailing",
     isNew: false,
     backgroundPositionX: 0,
     backgroundPositionY: 0,
@@ -12,15 +12,16 @@ export const featuresTabs = [
   },
   {
     icon: "./assets/lottie/click.lottie",
-    title: "Effortless Booking",
+    title: "Standard Detailing",
     isNew: false,
+    isPopular: true,
     backgroundPositionX: 98,
     backgroundPositionY: 100,
     backgroundSizeX: 135,
   },
   {
     icon: "./assets/lottie/stars.lottie",
-    title: "Premium Cleaning Products",
+    title: "Premium Detailing",
     isNew: true,
     backgroundPositionX: 100,
     backgroundPositionY: 27,

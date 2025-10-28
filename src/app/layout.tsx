@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "PAS | Premium Auto Spa",
   description: "A landing page for PAS a luxury car home washing service",
 icons: {
-    icon: "/favicon.ico", // your custom icon
+    icon: "/favicon.ico",
   },
 };
 

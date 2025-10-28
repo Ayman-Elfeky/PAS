@@ -9,6 +9,7 @@ import {
 } from "framer-motion";
 import { useRef } from "react";
 import useRelativeMousePosition from "@/hooks/useRelativeMousePosition";
+import Image from "next/image";
 
 export const CallToAction = () => {
   const sectionRef = useRef<HTMLElement>(null);
