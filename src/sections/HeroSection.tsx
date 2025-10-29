@@ -6,7 +6,7 @@ import { TextTransition } from "./TextTransition";
 
 export const HeroSection = () => {
   return (
-    <div className="relative">
+    <div className="relative z-0">
       <video src={"https://res.cloudinary.com/dguf7s0iz/video/upload/v1761341187/hero-section_mxmzqq.mp4"} controls={false} loop muted autoPlay className="absolute z-0 inset-0 object-cover w-full h-[100%]">
       </video>
       <div className="absolute inset-0 bg-black opacity-70"></div>

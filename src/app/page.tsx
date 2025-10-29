@@ -7,13 +7,14 @@ import { HeroSection } from "@/sections/HeroSection";
 import { LogoTicker } from "@/sections/LogoTicker";
 import { Testimonials } from "@/sections/Testimonials";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <main className="overflow-x-hidden">
-    <a href="https://wa.me/+201210007708" target="_blank" rel="noopener noreferrer">
+    <Link href="https://wa.me/+201210007708" target="_blank" rel="noopener noreferrer">
       <Image src={Whatsapp} alt="WhatsApp" className="cursor-pointer fixed bottom-4 right-4 w-16 h-10 z-50"/>
-    </a>
+    </Link>
       <Header />
       {/* <Hero /> */}
       <HeroSection />

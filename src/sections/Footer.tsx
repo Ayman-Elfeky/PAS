@@ -4,11 +4,10 @@ import Link from "next/link";
 import Logoo  from "../assets/logo.png";
 
 const navItems = [
-  { href: "#", title: "Features" },
   { href: "#", title: "About Us" },
   { href: "#", title: "Pricing" },
   // { href: "#", title: "Blog" },
-  { href: "#", title: "Contact Us" },
+  { href: "https://wa.me/+201210007708", title: "Contact Us" },
 ];
 
 export const Footer = () => {
@@ -32,12 +31,14 @@ export const Footer = () => {
             ))}
           </nav>
           <div className="flex gap-5 lg:flex-1 lg:justify-end">
-            {/* <SocialX className="text-white/40 hover:text-white transition" />
-            <SocialInstagram className="text-white/40 hover:text-white transition" />
-            <SocialYoutube className="text-white/40 hover:text-white transition" /> */}
-            <Image src={Instagram} alt="Instagram" className="cursor-pointer w-8 h-8 hover:opacity-100 opacity-70 transition" />
-            <Image src={LinkedIn} alt="LinkedIn" className="cursor-pointer w-8 h-8 hover:opacity-100 opacity-70 transition" />
-            <Image src={Whatsapp} alt="Whatsapp" className="cursor-pointer w-8 h-8 hover:opacity-100 opacity-70 transition" />
+            <Link href="https://www.instagram.com/paspremiumautospa" target="_blank" rel="noopener noreferrer">
+            <Image src={Instagram} alt="Instagram" className="cursor-pointer w-14 h-10 hover:opacity-100 opacity-70 transition" />
+</Link>
+           { /*<Image src={LinkedIn} alt="LinkedIn" className="cursor-pointer w-14 h-10 hover:opacity-100 opacity-70 transition" />*/}
+            <Link href="https://wa.me/+201210007708" target="_blank" rel="noopener noreferrer">
+      <Image src={Whatsapp} alt="WhatsApp" className="cursor-pointer w-16 h-10 hover:opacity-100 opacity-70 transition"/>
+    </Link>
+
           </div>
         </div>
       </div>
