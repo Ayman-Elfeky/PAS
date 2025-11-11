@@ -4,6 +4,7 @@ import { Features } from "@/sections/Features";
 import { Footer } from "@/sections/Footer";
 import { Header } from "@/sections/Header"; 
 import { HeroSection } from "@/sections/HeroSection";
+import ImageSwitcher from "@/sections/ImageSwitcher";
 import { LogoTicker } from "@/sections/LogoTicker";
 import { Testimonials } from "@/sections/Testimonials";
 import Image from "next/image";
@@ -19,6 +20,7 @@ export default function Home() {
       {/* <Hero /> */}
       <HeroSection />
       <LogoTicker />
+      <ImageSwitcher />
       <Testimonials />
       <Features />
       <CallToAction />

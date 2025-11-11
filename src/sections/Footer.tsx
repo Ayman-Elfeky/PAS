@@ -32,7 +32,7 @@ export const Footer = () => {
           </nav>
           <div className="flex gap-5 lg:flex-1 lg:justify-end">
             <Link href="https://www.instagram.com/paspremiumautospa" target="_blank" rel="noopener noreferrer">
-            <Image src={Instagram} alt="Instagram" className="cursor-pointer w-14 h-10 hover:opacity-100 opacity-70 transition" />
+            <Image src={Instagram} alt="Instagram" className="cursor-pointer w-14 h-12 hover:opacity-100 opacity-70 transition" />
 </Link>
            { /*<Image src={LinkedIn} alt="LinkedIn" className="cursor-pointer w-14 h-10 hover:opacity-100 opacity-70 transition" />*/}
             <Link href="https://wa.me/+201210007708" target="_blank" rel="noopener noreferrer">

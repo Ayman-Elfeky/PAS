@@ -2,9 +2,10 @@
 import {
   AcmeLogo,
   ApexLogo,
-  EchoLogo,
+  Bentley,
   PulseLogo,
-  QuantumLogo
+  QuantumLogo,
+  Audi
 } from "@/assets";
 import { motion } from "framer-motion";
 import Image from "next/image";
@@ -12,9 +13,10 @@ import Image from "next/image";
 const logos = [
   ApexLogo,
   AcmeLogo,
-  EchoLogo,
+  Bentley,
   PulseLogo,
   QuantumLogo,
+  Audi
 ];
 
 export const LogoTicker = () => {
