@@ -16,7 +16,7 @@ export const services: IService[] = [
         name: 'Alpha',
         src: alpha,
         color: '#2CAEE0',
-        price: 295
+        price: 350
     },
     {
         name: 'Delta',
