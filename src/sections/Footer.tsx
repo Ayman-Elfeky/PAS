@@ -3,11 +3,12 @@ import Image from "next/image";
 import Link from "next/link";
 import Logoo  from "../assets/logo.png";
 
+const message = `Hello! I’m interested in detailing my car!`;
+const whatsappUrl = `https://api.whatsapp.com/send?phone=201210007708&text=${encodeURIComponent(message)}`;
 const navItems = [
-  { href: "#", title: "About Us" },
-  { href: "#", title: "Pricing" },
-  // { href: "#", title: "Blog" },
-  { href: "https://wa.me/+201210007708", title: "Contact Us" },
+  { href: `https://wa.me/+201210007708&text=${whatsappUrl}`, title: "About Us" },
+  { href: `https://wa.me/+201210007708&text=${whatsappUrl}`, title: "Pricing" },
+  { href: `https://wa.me/+201210007708&text=${whatsappUrl}`, title: "Contact Us" },
 ];
 
 export const Footer = () => {
@@ -32,11 +33,11 @@ export const Footer = () => {
           </nav>
           <div className="flex gap-5 lg:flex-1 lg:justify-end">
             <Link href="https://www.instagram.com/paspremiumautospa" target="_blank" rel="noopener noreferrer">
-            <Image src={Instagram} alt="Instagram" className="cursor-pointer w-14 h-12 hover:opacity-100 opacity-70 transition" />
+            <Image src={Instagram} alt="Instagram" className="cursor-pointer w-16 h-12 hover:opacity-100 opacity-70 transition" />
 </Link>
            { /*<Image src={LinkedIn} alt="LinkedIn" className="cursor-pointer w-14 h-10 hover:opacity-100 opacity-70 transition" />*/}
             <Link href="https://wa.me/+201210007708" target="_blank" rel="noopener noreferrer">
-      <Image src={Whatsapp} alt="WhatsApp" className="cursor-pointer w-16 h-10 hover:opacity-100 opacity-70 transition"/>
+      <Image src={Whatsapp} alt="WhatsApp" className="cursor-pointer w-20 h-10 hover:opacity-100 opacity-70 transition"/>
     </Link>
 
           </div>

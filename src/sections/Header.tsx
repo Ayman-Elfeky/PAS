@@ -10,8 +10,8 @@ import Link from "next/link";
 import Image from "next/image";
 
 const navItems = [
-  { href: "#", title: "About Us" },
-  { href: "#", title: "Pricing" },
+  { href: "https://wa.me/+201210007708", title: "About Us" },
+  { href: "https://wa.me/+201210007708", title: "Pricing" },
   { href: "https://wa.me/+201210007708", title: "Contact Us" },
 ];
 

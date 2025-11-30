@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <main className="overflow-x-hidden">
     <Link href="https://wa.me/+201210007708" target="_blank" rel="noopener noreferrer">
-      <Image src={Whatsapp} alt="WhatsApp" className="cursor-pointer fixed bottom-4 right-4 w-16 h-10 z-50"/>
+      <Image src={Whatsapp} alt="WhatsApp" className="cursor-pointer fixed bottom-4 right-4 w-20 h-10 z-50"/>
     </Link>
       <Header />
       {/* <Hero /> */}
